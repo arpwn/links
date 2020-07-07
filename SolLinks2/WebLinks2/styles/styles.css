@@ -1,0 +1,56 @@
+﻿/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Pacifico&display=swap');
+
+/* styles */
+
+/* begins center all content */
+
+html, body {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    height: 100%;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+}
+
+#contenedor {
+    display: table-cell;
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+}
+
+#contenido {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+/* end center all content */
+
+h1 {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-size: 60px;
+    padding-bottom: 15px;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 35px;
+    color: mediumseagreen;
+    padding-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: darkcyan;
+    font-weight: bold;
+}
+
